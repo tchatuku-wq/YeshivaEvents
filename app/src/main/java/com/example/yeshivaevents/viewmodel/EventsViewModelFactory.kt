@@ -1,0 +1,17 @@
+package com.example.yeshivaevents.viewmodel
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.example.yeshivaevents.repository.EventsRepository
+
+class EventsViewModelFactory(
+    private val repository: EventsRepository
+) : ViewModelProvider.Factory {
+
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(EventsViewModel::class.java)) {
+            return EventsViewModel(repository) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
