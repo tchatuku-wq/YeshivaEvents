@@ -81,16 +81,16 @@ Remote API / Local Database (Room)
 ## 📸 Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](screenshots/homescreen.png)
 
 ### Event Details Screen
-![Details Screen](screenshots/details_screen.png)
+![Details Screen](screenshots/detailsscreen.png)
 
 ### Error / Empty State
-![Error State](screenshots/error_state.png)
+![Error State](screenshots/test report.png)
 
 ### App Icon
-![App Icon](screenshots/app_icon.png)
+![App Icon](screenshots/events_icon.png)
 
 ---
 
